@@ -1,7 +1,7 @@
 # 🌤️ Weather Infos
 Aplicação web que exibe informações climáticas de qualquer cidade do mundo.  
   
-<a href="https://weather-infos.netlify.app/" target="_blank">https://weather-infos.netlify.app/</a>
+Acesse: https://weather-infos.netlify.app/
 
 ## Tecnologias utilizadas
 - HTML: linguagem de marcação para estruturar a aplicação web.
