@@ -1,4 +1,4 @@
-# 🌤️ Weather Info
+# 🌤️ Weather Infos
 Aplicação web que exibe informações climáticas de qualquer cidade do mundo. 
 
 ## Tecnologias utilizadas
