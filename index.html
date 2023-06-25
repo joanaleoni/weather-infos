@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <h1>Clima</h1>
+
+    <form class="search-form">
+        <input type="search" id="search-input" placeholder="Procura uma cidade..." />
+        <button>Buscar</button>
+    </form>
+
+    <div class="result">
+        <div class="location">--</div>
+
+        <div class="info">
+            <div class="temp">
+                <div class="temp-title">Temperatura</div>
+                <div class="temp-info">-- <sup>°C</sup></div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+            </div>
+            <div class="wind">
+                <div class="wind-title">Vento</div>
+                <div class="wind-info">-- <span>km/h</span></div>
+                <div class="wind-area">
+                    <div class="wind-angle" style="transform: rotate(0deg)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="warning"></div>
+
+    <footer>Criado por <a href="https://www.linkedin.com/in/joanaleoni/" target="_blank">Joana Leoni</a></footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
