@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body {
+    display: flex;
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+/* Search */
+.search-form {
+    display: flex;
+    width: 300px;
+}
+
+.search-form #search-input {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.search-form button {
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: #555;
+    color: #FFF;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.search-form button:hover {
+    background-color: #444;
+}
+
+/* Result - weather infos */
+.result {
+    width: 300px;
+    display: none;
+    border: 1px dotted #FFF;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.location {
+    width: 100%;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+
+.info .temp, 
+.info .wind {
+    flex: 1;
+    text-align: center;
+}
+
+.temp-title,
+.wind-title {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.temp-info,
+.wind-info {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.temp-info sup {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.wind-info span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.wind-area {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.wind-angle {
+    width: 15px;
+    height: 1px;
+    background-color: #FFF;
+    transform-origin: left;
+}
+
+.warning {
+    color: #FFF;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    font-size: 13px;    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    color: #FFF;
+    padding-left: 3px;
+}
